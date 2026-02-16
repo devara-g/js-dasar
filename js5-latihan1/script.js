@@ -1,12 +1,12 @@
 //latihan #1
-let angkaDepan, angkaBelakang, total;
+let namaDepan, namaBelakang, namaLengkap;
 
 document.getElementById("button-merge").onclick = function (){
-    angkaDepan = document.getElementById("angka1").value;
-    angkaBelakang = document.getElementById("angka2").value;
-    total = parseInt(angkaDepan) + parseInt(angkaBelakang);
+    namaDepan = document.getElementById("nama_depan").value;
+    namaBelakang = document.getElementById("nama_belakang").value;
+    namaLengkap = (namaDepan) + (namaBelakang);
     console.log(total);
 
-    document.getElementById("nama_lengkap").textContent = "hello world";
+    document.getElementById("nama_lengkap").textContent = namaLengkap;
 }
     
